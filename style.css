@@ -6,5 +6,8 @@ form{
     width: 450px;
     padding: 1.5rem;
     margin: 60px auto;
-    border: radius:10px;
+    border-radius:1000px;
+}
+button{ 
+    border-radius:1000px;
 }
