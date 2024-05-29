@@ -1,11 +1,38 @@
-body{
-    height: 100vh;
-    background: linear-gradient(
-
-    )
+*{
+    margin: 0%;
+   padding: 0%;
 }
-
-# F0F2F5
-# FFFFFF
-# 0866FF
-# 42B72A
+body{background-color: #F0F2F5;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    padding-top: 40px;
+}
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 320px;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Link1 a{text-decoration: double;
+    cursor: pointer;}
+    .Link1 a:hover{text-decoration: underline;}
+.Link2 a{text-decoration: double;
+cursor: pointer;}
+.Link2 a:hover{text-decoration: underline;}
+.FacebookSlo{position: relative;
+left: 0%;
+bottom: 100%;
+}
+.hori{
+    width: 95%;
+    color: #DADDE1;
+}
